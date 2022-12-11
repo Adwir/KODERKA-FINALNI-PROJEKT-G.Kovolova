@@ -1,0 +1,18 @@
+---
+layout: layouts/eng/header-footer layout eng.njk
+title: Buy it!
+---
+<h1>Portfolio</h1>
+{% for article in collections.buy it! | reverse %}
+
+<div class="article">
+    <img src="/images/{{ article.data.foto }}" alt="{{ article.data.label }}">
+    <div> class="article__label"
+        <h2>{{ article.data.title }}</h2>
+        <p>{{ article.data.perex }}</p>
+        <p><a href="{{ article.url }}">Read more</a></p>
+    </div>
+</div>
+{% endfor %}
+
+   

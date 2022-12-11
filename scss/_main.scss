@@ -1,0 +1,12 @@
+@use 'colors';
+@use 'base';
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+
+.main {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid colors.$primary-special-color;
+    overflow: auto;
+  }
+  

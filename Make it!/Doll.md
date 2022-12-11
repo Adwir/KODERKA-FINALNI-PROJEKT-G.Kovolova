@@ -1,0 +1,26 @@
+---
+layout: layouts/eng/article.njk
+title: Doll crafting
+date: 2022-12-7T18:00
+perex: Donec iaculis gravida nulla. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
+foto: doll.png
+label: fabric doll
+tags: 
+- blog
+- textile
+- doll
+- embroidery
+- beeds
+---
+
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce tellus. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Nulla quis diam.
+
+## Bright embroidered figures
+ Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Integer tempor. 
+ 
+ Donec iaculis gravida nulla. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Donec iaculis gravida nulla. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. 
+ 
+ Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? 
+ 
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Vivamus luctus egestas leo.

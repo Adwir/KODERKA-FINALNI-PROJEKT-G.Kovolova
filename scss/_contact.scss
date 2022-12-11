@@ -1,0 +1,35 @@
+@use 'colors';
+@use 'base';
+
+.contact__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.contact__title {
+    margin-top: 2rem;
+}
+.form-field {
+    margin-bottom: 1rem;
+}
+
+.form-field label {
+    display: block;
+    color: colors.$grey2;
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+}
+
+.form-field :is(input, textarea, select) {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var colors.$tertiary-special-color;
+    border-radius: 4px;
+}
+
+.required:after {
+    content: "*";
+    color: colors.$primary-color;
+    margin-left: 4px;
+}

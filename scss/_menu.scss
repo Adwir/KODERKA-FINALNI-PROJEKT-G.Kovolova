@@ -1,0 +1,36 @@
+@use 'colors';
+@use 'base';
+
+.menu {
+    color: colors.$primary-color;
+
+  
+      &__list {
+          margin: 0;
+          padding: 2px;
+          display: flex;
+          justify-content: center;
+          list-style: none; 
+      }
+  
+      &__item: {
+         margin: 0;
+         padding:0; 
+      }
+  
+      &__link {
+          display: inline-block;
+          padding: 10px 20px;
+          color: colors.$body-text-color;
+          text-decoration: none;
+          font-family: 'Abril Fatface', cursive;
+          font-size: 18px;
+  
+          &:hover,
+          &:focus {
+            background-color: colors.$primary-color;
+          }
+      }
+  
+
+  @media 

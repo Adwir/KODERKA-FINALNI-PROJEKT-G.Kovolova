@@ -1,0 +1,39 @@
+---
+Layout:layouts/eng/header-footer eng.njk
+Title:
+---
+<--!insert head-->
+{% include 'partials/header.njk' %}
+
+<!-- add menu -->
+{% include 'partials/menu.njk' %}
+
+<main class="main">
+
+<!--add page content or layout -->
+
+<article class="article">
+
+## Smaller title not sure what
+
+    <h3 class"article__title">{{ title }}</h3>
+
+<p class="article__meta"> Published {{ page.date.tolocaleString ('cs-CZ') }}</p>
+
+<div class="article__content">
+    <div class="article__text">
+
+<p class="article__perex">{{ perex }}</p>
+
+{{content | safe }}
+    </div>
+
+<img class="article__image" src="/images/{{ foto }}" alt="{{ label }}>
+</div>
+
+</article>
+
+</main>
+
+<--!insert footer-->
+{% include 'partials/footer.njk' %}

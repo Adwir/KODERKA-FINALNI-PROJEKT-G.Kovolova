@@ -1,0 +1,57 @@
+@use 'colors';
+
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *, ::before, ::after {
+    box-sizing: inherit;
+  }
+  
+  
+body {
+    font-family: Bodoni Moda, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: colors.$body-color;
+    color: colors.$body-text-color;
+    margin:0;
+}
+.wrapper {
+    max-width: 66rem;
+    margin: 0 auto;
+    background-color: white;
+}
+h1, h2, h3 {
+    color: colors.$primary-color;
+}
+  
+h1 {
+    font-family: 'Abril Fatface'; 
+    font-size: 2em;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Lemonada', cursive; 
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+a {
+    font-family: 'Abril Fatface', cursive; 
+    color: colors.$secondary-special-color; 
+    text-decoration: none;
+  }
+  
+a:hover {
+    font-size: 1.3em;
+} 

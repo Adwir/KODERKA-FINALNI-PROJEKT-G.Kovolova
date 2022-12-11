@@ -1,0 +1,28 @@
+@use 'colors';
+@use 'base';
+
+.header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header__logo-image  {
+    height: 2em;
+    width: auto;
+    margin-left: 8px;
+    vertical-align: baseline;
+    flex: 0 0 100%;
+  }
+
+.header__logo-font {
+    height: 3.5em;
+    width: auto;
+    margin-left: 8px;
+    vertical-align: baseline;
+    flex: 0 0 100%;
+  }
+
+
+
