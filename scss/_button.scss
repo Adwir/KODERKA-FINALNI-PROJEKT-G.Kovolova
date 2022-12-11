@@ -1,9 +1,12 @@
+@use 'colors';
+@use 'base';
+
 .button {
     padding: 1em;
     background-color: colors.$fourth-special-color;
     font-size: 1rem;
     border: 1px solid colors.$primary-special-color;
-    border-radius: 10px;
+    border-radius: 4px;
     color: colors.$primary-special-color;
     cursor: pointer;
 }
