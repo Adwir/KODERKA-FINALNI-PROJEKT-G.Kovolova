@@ -1,0 +1,18 @@
+---
+layout: layouts/en/header-footer.njk
+title: make it
+---
+<h1>Make it!</h1>
+{% for article in collections.blog | reverse %}
+
+<div class="article">
+    <img src="/images/{{ article.data.foto }}" alt="{{ article.data.label }}">
+    <div> class="article__label"
+        <h2>{{ article.data.title }}</h2>
+        <p>{{ article.data.perex }}</p>
+        <p><a href="{{ article.url }}">Read more</a></p>
+    </div>
+</div>
+{% endfor %}
+
+   
