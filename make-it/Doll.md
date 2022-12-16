@@ -1,7 +1,7 @@
 ---
 layout: layouts/en/article.njk
 title: Doll crafting
-date: 2022-12-07T18:00
+date: 2022-12-12T16:00
 perex: Donec iaculis gravida nulla. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
 foto: doll.png
 label: fabric doll

@@ -14,14 +14,14 @@ body {
     font-family: Bodoni Moda, serif;
     font-size: 16px;
     line-height: 1.6;
-    background-color: colors.$body-color;
+    background-color: colors.$grey2;
     color: colors.$body-text-color;
     margin:0;
 }
 .wrapper {
     max-width: 66rem;
     margin: 0 auto;
-    background-color: white;
+    background-color: colors.$fifth-color;
 }
 h1, h2, h3 {
     color: colors.$primary-color;
@@ -54,4 +54,9 @@ a {
   
 a:hover {
     font-size: 1.3em;
+    color: colors.$tertiary-color;
 } 
+
+img {
+    width: 25%;
+}

@@ -3,178 +3,105 @@ layout: layouts/en/header-footer.njk
 title: Home page Adwir
 ---
 <div class="about"> 
-    <div class="carousel">  
-        <section class="home-gallery">
-            <div class="home-gallery__grid"> 
-                <div class="glide">
-                    <div class="glide__track" data-glide-el="track">
-                        <ul class="glide__slides">
-                            <li class="glide__slide"><img class="home-gallery__item" src="/images/workshop/workshop.png" alt="workshop"></li>
-                            <li class="glide__slide"><img class="home-gallery__item" src="/images/workshop/scissors.png" alt="scissors"></li>
-                            <li class="glide__slide"><img class="home-gallery__item" src="/images/embroidery/handcrafted-takes-time.png" alt="embroidery"></li>
-                            <li class="glide__slide"><img class="home-gallery__item" src="/images/explore/on-the-beach.png" alt="on the beach"></li>
-                            <li class="glide__slide"><img class="home-gallery__item" src="/images/se-stinem.jpg" alt="se-stinem"></li>
-                            <li class="glide__slide"><img class="home-gallery__item" src="/images/modrooka.jpg" alt="modrooka"></li>
-                        </ul>
-                    </div>
-
-                    <div class="glide__arrows" data-glide-el="controls">
-                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
-                    </div>
-                </div>
-            </div>
-            <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-            
-            <script>
-                const config = {
-                    type: 'carousel',
-                    perView: 3,
-                    breakpoints: {
-                         1024: {perView: 2},
-                          600: {perView: 1}
-                }
-                new Glide('.glide', config).mount()
-            </script>
-            
-                <div class="carousel__buttons">
-                    <div class="glide__bullets" data-glide-el="controls[nav]">
-                        <button class="glide__bullet" data-glide-dir="=0"></button>
-                        <button class="glide__bullet" data-glide-dir="=1"></button>
-                        <button class="glide__bullet" data-glide-dir="=2"></button>
-                    </div>
-                </div>   
-        </section>         
+    <div class="about__image">  
+        <img class="about__workshop" src="/images/workshop/workshop.png" alt="workshop">
     </div>
     <div class="about__text">
         <h1>Lovely ladies and gents!</h1>
         <h2>Thank you for stopping by.</h2>
-
             <p>What will you find here? Island living inspired DIY, products, sewing projects, creative solutions, stories, and recommendations.</p>  
             <p>We humans are multifaceted gems; I am here to inspire you to shine on all your surfaces. My struggles and innovations are making me who I am. </p>
-            <p>Lets just do it! Lets just make it! Or even better.</p>
-            <h3>Lets create it, whatever your “IT” might be.</h3> 
+            <p>Let’s just do it! Let’s just make it! Or even better.</p>
+            <h3>Let’s create it, whatever your “IT” might be.</h3> 
             <p>Change is magical, possibilities are endless and we are all uniquely different. Be our own legends.</p>
     </div> 
     
-    <div class="contact-icons">
-        <div class="icon">
-            <div class="facebook"><a href="https://www.facebook.com/adwir.island.made/"><img class="facebook-button" src="/images/facebook-button.png”</a></div>
-            <div class="instagram" ><a href="https://www.instagram.com/adwir.island.made/"><img class="instagram-button" src=”/images/instagram-button.png”</a></div>
-            <div class="pinterest"><a href="https://cz.pinterest.com/adwir/"><img class="pinterest-button" src=”/images/pinterest-button.png”</a></div>
-            <div class="contact" ><a href="#contact"><img class="contact-button" src=”/images/email-button.png”</a></div>
-            <div class="location"><a href="https://en.mapy.cz/zakladni?source=ward&id=14826&ds=1&x=18.2157733&y=49.7835029&z=13"><img class="location-button" src=”/images/location-button.png”</a></div>
+    <div class="contact__icons">
+        <div class="icons">
+            <div class="facebook">
+                <a href="https://www.facebook.com/adwir.island.made/"><img class="facebook-button" src="/images/facebook-button.png”>
+                </a>
+            </div>  
+        
+            <div class="instagram">
+                <a href="https://www.instagram.com/adwir.island.made/"><img class="instagram-button" src=”/images/instagram-button.png”>
+                </a>
+            </div>
+
+            <div class="pinterest">
+                <a href="https://cz.pinterest.com/adwir/"><img class="pinterest-button" src=”/images/pinterest-button.png”>
+                </a>
+            </div>
+
+            <div class="contact" >
+                <a href="#contact"><img class="contact-button" src=”/images/email-button.png”>
+                </a>
+            </div>
+
+            <div class="location">
+                <a href="https://en.mapy.cz/zakladni?source=ward&id=14826&ds=1&x=18.2157733&y=49.7835029&z=13"><img class="location-button" src=”/images/location-button.png”>
+                </a>
+            </div>
             
         </div>    
     </div>  
-    
-</div>    
-    
+    <button class="learn-more">
+            <a href="/"><h2>More...</h2></a>
+    </button> 
+</div>
 
 <div class="products">
-    <div class="carousel">   
-        <section class="products-gallery">
-            <div class="products-gallery__grid">
-                <div class="glide">
-                    <div class="glide__track" data-glide-el="track">
-                        <ul class="glide__slides">
-                            <li class="glide__slide"><img class="products-gallery__item" src="/images/minies/mini-coral-dress.png" alt="dress"></li>
-                            <li class="glide__slide"><img class="products-gallery__item" src="/images/jewellery/brass-leaf-earrings.png" alt="earrings"></li>
-                            <li class="glide__slide"><img class="products-gallery__item" src="/images/concrete/concrete-skull-studs.png" alt="skull earrings"></li>
-                        </ul>
-                    </div>
-
-                    <div class="glide__arrows" data-glide-el="controls">
-                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
-                    </div>
-                </div>
-            </div>
-            <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-            <script>
-                const config = {
-                    type: 'carousel',
-                    perView: 1,
-                    startAt: 0,
-                }
-                new Glide('.glide', config).mount()
-            </script>  
-          
-        </section>  
-        <button class="learn-more">
-            <a href="/buy it!/"><h2>More...</h2></a>
-        </button>   
+    <div class="product__image">   
+        <img class="products-greydress" src="/images/minis/mini-grey-dress" alt="grey dress">               
     </div>
-</div>    
 
+    <div class="product__text">
+        <h1>Handcrafted masterpieces take time!</h1>
+        <h2>But also skills, knowledge and patience.</h2>
+            <p>I am interested in many technics and processes of turning raw materials into beautiful object, from textiles, leather to concrete and metal.</p>  
+            <p>You also might be interested to learn, but if time is your enemy, you might want to get finished item.</p>
+            <h3>Let’s create! Let’s upcycle. Let’s beautify.</h3> 
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce tellus.</p>
+    </div> 
+    <button class="learn-more">
+            <a href="/buy-it/"><h2>More...</h2></a>
+    </button>        
+</div>
 
 <div class="destination">
-    <div class="carousel"></div>
-        <section class="destination-gallery">
-            <div class="destination-gallery__grid">
-                <div class="glide">
-                    <div class="glide__track" data-glide-el="track">
-                        <ul class="glide__slides">
-                        <li class="glide__slide"><img class="destination-gallery__item" src="/images/explore/road.png" alt="road"></li>
-                        <li class="glide__slide"><img class="destination-gallery__item" src="/images/explore/beach-airshot.png" alt="beach"></li>
-                        <li class="glide__slide"><img class="destination-gallery__item" src="/images/explore/pool.jpg" alt="pool"></li>
-                        </ul>
-                    </div>
-
-                    <div class="glide__arrows" data-glide-el="controls">
-                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
-                    </div>  
-                </div>
-                <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-                <script>
-                    const config = {
-                        type: 'carousel',
-                        perView: 1,
-                        startAt: 0,
-                    }
-                    new Glide('.glide', config).mount()
-                </script>    
-            </div>
-        </section>  
-
-        <button class="learn-more"
-            <a href="/explore it!/"><h2>More...</h2> </a>  
-        </button> 
-
-    </div>
+    <div class="destination__image">         
+        <img class="destination-road" src="/images/explore/road.png" alt="road">
+    </div>                    
+                
+    <div class="destination__text">
+        <h1>Get inspired by exploring the world!</h1>
+        <h2>Even the journey could be the destination.</h2>
+            <p>So many places already travelled and so many still to discover.</p>  
+            <p>I lived abroad nearly 20 years and island living was my calling. Let me share those places with you, so you can see them for yourself.</p>
+            <h3>Let’s travel. Let’s discover. Let’s explore.</h3> 
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce tellus.</p>  
+    </div>   
+    <button class="learn-more"
+            <a href="/explore-it/"><h2>More...</h2> </a>  
+        </button>           
 </div>  
 
 <div class="grow">
-    <div class="carousel"></div>
-        <section class="grow-gallery">
-            <div class="grow-gallery__grid">
-                <div class="glide">
-                    <div class="glide__track" data-glide-el="track">
-                        <ul class="glide__slides">
-                        <li class="glide__slide"><img class="grow-gallery__item" src="/images/growing/strange-fruit.png" alt="strange fruit"></li>
-                        <li class="glide__slide"><img class="grow-gallery__item" src="/images/growing/cabbage-marigold.png" alt="cabbage"></li>
-                        <li class="glide__slide"><img class="grow-gallery__item" src="/images/growing/puya-berteroniana.png" alt="puya"></li>
-                        </ul>
-                    </div>
-                </div>
-                <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-                <script>
-                    const config = {
-                        type: 'carousel',
-                        perView: 1,
-                        startAt: 0,
-                    }
-                    new Glide('.glide', config).mount()
-                </script> 
-            </div>
-        </section>  
-
-        <button class="learn-more"
-           <a href="/grow-it/"><h2>More...</h2> </a>  
-        </button> 
+    <div class="grow__image">
+        <img class="grow-puya" src="/images/growing/puya-berteroniana.png" alt="puya">
     </div>
-</div>  
 
+    <div class="grow__text">
+        <h1>Grow your own!</h1>
+        <h2>Greens, skills, personality or companies.</h2>
+            <p>Growth has many forms and takes place on many different fronts.</p>  
+            <p>I is never too late to start.Learn from an amazing book ar get your hands dirty.</p>
+            <h3>Let’s grow greens. Let’s grow on personal level. Let’s grow as circular businesses.</h3> 
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce tellus.</p>  
+    </div>  
+    <button class="learn-more"
+           <a href="/grow-it/"><h2>More...</h2></a>  
+    </button>                     
+</div>
 <div class="instagram-gallery">
 </div>

@@ -1,11 +1,17 @@
 @use 'colors';
 @use 'base';
 
+
+
 .header {
   padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 4px gray;
+
 }
 
 .header__logo-image  {
@@ -24,5 +30,7 @@
     flex: 0 0 100%;
   }
 
+.home-gallery__item {
 
+}
 

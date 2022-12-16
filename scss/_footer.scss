@@ -2,7 +2,7 @@
 @use 'base';
 
 .footer {
-  background: url(./../images/textures/blue textures.jpg) no-repeat right center/cover;
+  background: url(./../images/textures/Blue-textures.jpg) no-repeat right center/cover;
   padding: 30px;
 }
 
@@ -36,7 +36,9 @@
   background-color: colors.$fourth-color;
   color: colors.$secondary-color; 
 }
- 
+.footer__menu-list {
+  font-size: 15px;
+}
 .footer__copyright {
   padding: 15px;
   font-size: 14px;
@@ -44,7 +46,7 @@
 }
 
 .footer-terms {
-  font-size:13px;
+  font-size:12px;
 }
 .footer__links {
   margin: 0;
