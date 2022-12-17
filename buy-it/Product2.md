@@ -1,5 +1,5 @@
 ---
-layout: layouts/en/article.njk
+layout: layouts/en/header-footer.njk
 title: Slow fashion
 date: 2022-12-11T18:00
 perex: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce tellus.

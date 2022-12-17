@@ -1,6 +1,27 @@
 @use 'colors';
 @use 'base';
 
+
+.learn-more {
+    display: inline-block;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: colors.$grey1;
+    color: colors.$body-text-color;
+    
+  }
+  
+  .button:hover,
+  .button:focus,
+  .button:active {
+    background-color: colors.$grey3;
+    color: colors.$primary-color;
+  }
+  
+
 .button {
     padding: 1em;
     background-color: colors.$fourth-special-color;
@@ -10,3 +31,4 @@
     color: colors.$primary-special-color;
     cursor: pointer;
 }
+

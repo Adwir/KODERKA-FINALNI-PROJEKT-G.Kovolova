@@ -1,5 +1,5 @@
 ---
-layout: layouts/en/article.njk
+layout: layouts/en/header-footer.njk
 title: Beaded lifestyle
 date: 2022-12-12T16:00
 perex: Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit

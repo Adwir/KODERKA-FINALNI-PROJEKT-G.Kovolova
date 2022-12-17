@@ -1,5 +1,5 @@
 ---
-layout: layouts/en/article.njk
+layout: layouts/en/header-footer.njk
 title: Modern embroidery
 date: 2022-12-11T18:00
 perex: Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Integer tempor.

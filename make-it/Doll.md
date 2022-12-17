@@ -1,5 +1,5 @@
 ---
-layout: layouts/en/article.njk
+layout: layouts/en/header-footer.njk
 title: Doll crafting
 date: 2022-12-12T16:00
 perex: Donec iaculis gravida nulla. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
