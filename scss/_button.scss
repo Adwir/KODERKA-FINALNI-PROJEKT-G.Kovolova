@@ -32,3 +32,27 @@
     cursor: pointer;
 }
 
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: peachpuff;
+  color: black;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #e77b68;
+}
+
+
+.learn-more {
+    padding: 1em;
+    background-color: colors.$fourth-special-color;
+    font-size: 1rem;
+    border: 1px solid colors.$primary-special-color;
+    border-radius: 4px;
+    color: colors.$primary-special-color;
+    cursor: pointer;
+}

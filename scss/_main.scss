@@ -4,7 +4,23 @@
 .main {
     margin: 20px 0;
     padding: 20px;
-    border: 1px solid colors.$primary-special-color;
+    border: 1px solid colors.$grey1;
     overflow: auto;
+    flex: 1;
+  }
+
+  .about {
+    border: 1px solid colors.$primary-special-color;
+  }
+
+  .products {
+    border: 1px solid colors.$secondary-color;
   }
   
+  .destination {
+    border: 1px solid colors.$secondary-special-color;
+  }
+
+  .growth {
+    border: 1px solid colors.$highlight1;
+  }
