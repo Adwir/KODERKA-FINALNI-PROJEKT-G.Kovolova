@@ -1,5 +1,17 @@
-.image {
-    width: 100%;
-    border: 5px solid rgba(0, 0, 0, 0.1);
-  }
-  
+.img {
+  width: 100%;
+}
+
+.about__image {
+  width: ;
+  border: 1px solid colors.$primary-color;
+}
+.product__image {
+  border: 1px solid colors.$secondary-color;
+}
+.destination__image {
+  border: 1px solid colors.$secondary-special-color;
+}
+.growth__image {
+  border: 1px solid colors.$highlight1;
+}

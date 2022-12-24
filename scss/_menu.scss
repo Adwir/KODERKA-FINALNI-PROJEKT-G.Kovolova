@@ -2,7 +2,7 @@
 @use 'base';
 
 .menu {
-    color: colors.$primary-color;
+    background-color: colors.$primary-color;
 
     &__toggler {
       cursor: pointer;
@@ -16,18 +16,27 @@
     &__list {
         display: none;
         margin: 0;
-        padding: 0;
+        padding: 5px;
+        justify-content: center;
         list-style: none;
-        background-color: colors.$fourth-color;
+    }
+    @media screen and (min-width: 640px) {
+        .menu__list {
+         text-align: left;
+        }
     }
 
     &__item {
         border-bottom: 1px solid white;
     }
+    &__item:not(:last-child) {
+        border-right: 1px solid white;
+    }
+
   
     &__link {
         display: block;
-        padding: 15px;
+        padding: 10px 20px;
         color: white;
         text-decoration: none;
         font-family: 'Abril Fatface', cursive;
@@ -35,8 +44,8 @@
 
         &:hover,
         &:focus {
-          background-color: colors.$primary-color;
-          color: white;
+          background-color: white;
+          color: colors.$primary-color;
         }
     }
   

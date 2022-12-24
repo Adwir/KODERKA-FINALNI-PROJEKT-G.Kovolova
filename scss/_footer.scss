@@ -53,11 +53,12 @@
   padding: 0;
   list-style: none;
 }
-@media screen and (min-width: 640px) {}
+@media screen and (min-width: 640px) {
   .footer-top {
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   }
+}
 
   .footer-bottom {
     display: grid;

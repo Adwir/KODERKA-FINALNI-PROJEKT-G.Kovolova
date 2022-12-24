@@ -4,15 +4,24 @@
 
 
 .header {
-  padding: 15px;
+  padding: 20px;
   display: flex;
+  border: 2px solid colors.$primary-color;
   justify-content: space-between;
   align-items: flex-end;
   background-color: white;
   border-radius: 10px;
+  text-align: center;
   box-shadow: 3px 4px gray;
 
 }
+@media screen and (min-width: 640px) {
+ .header {
+  text-align: left;
+ }
+}
+  
+
 
 .header__logo-image  {
     height: 2em;
