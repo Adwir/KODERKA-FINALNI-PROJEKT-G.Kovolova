@@ -22,7 +22,7 @@
   color: colors.$body-color;
 }
 
-.icons {
+ul.icons img {
   padding: 5px;
   border-radius: 5px;
   background-color: colors.$primary-color;
@@ -31,18 +31,21 @@
   height: 36px;
 }
 
-.contact__icons {
+.icons {
   list-style-type: none;
-  margin: 2px;
+  margin: 0;
   padding: 0;
-  display: inline-block;
 }
 
-.icons:hover,
-.icons:focus,
-.icons:active {
+ul.icons img:hover,
+ul.icons img:focus,
+ul.icons img:active {
   background-color: colors.$primary-special-color;
   border: 0.75px solid colors.$primary-special-color;
   color: white;
 }
 
+ul.icons li {
+  display: inline-block;
+  margin: 2px;
+}
