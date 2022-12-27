@@ -7,7 +7,7 @@
   text-decoration: none;
   text-align: center;
   border-radius: 5px;
-  padding: 1rem;
+  padding: 10px 5px;
   background-color: colors.$grey1;
   border: 0.75px solid colors.$body-text-color;
   color: colors.$body-text-color;
@@ -20,5 +20,29 @@
   background-color: colors.$grey3;
   border: 0.75px solid colors.$body-text-color;
   color: colors.$body-color;
+}
+
+.icons {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: colors.$primary-color;
+  color: white;
+  width: 36px;
+  height: 36px;
+}
+
+.contact__icons {
+  list-style-type: none;
+  margin: 2px;
+  padding: 0;
+  display: inline-block;
+}
+
+.icons:hover,
+.icons:focus,
+.icons:active {
+  background-color: colors.$primary-special-color;
+  border: 0.75px solid colors.$primary-special-color;
+  color: white;
 }
 

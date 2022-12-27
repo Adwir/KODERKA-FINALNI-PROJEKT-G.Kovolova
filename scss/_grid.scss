@@ -10,11 +10,6 @@
     width: 100%;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-  }
   
   .grid__item {
     border: 3px solid black;
